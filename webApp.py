@@ -14,7 +14,6 @@ app.config['CORS_HEADERS'] = '*'
 
 rootPath = ''
 
-
 @app.route(rootPath+'/')
 def main():
     return render_template('main.html')
